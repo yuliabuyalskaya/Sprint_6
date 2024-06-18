@@ -31,6 +31,7 @@ class PageMyOrder:
         self.driver.find_element(*self.button_go).click()
 
 
+
     def check_samokat_redirect(self):
         self.click_status_order()
         self.fill_number_in_input()

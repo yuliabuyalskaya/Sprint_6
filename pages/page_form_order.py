@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+
 class PageFormOrder:
     input_name = [By.CSS_SELECTOR, '.Order_Form__17u6u > div:nth-child(1) > input:nth-child(1)']
     input_surname = [By.CSS_SELECTOR, 'div.Input_InputContainer__3NykH:nth-child(2) > input:nth-child(1)']

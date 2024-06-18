@@ -19,6 +19,7 @@ class TestRedirect:
 
 
 
+
     def test_yandex_redirect(self):
         self.driver.get('https://qa-scooter.praktikum-services.ru/')
         client = PageMyOrder(self.driver)

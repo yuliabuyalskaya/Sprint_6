@@ -70,6 +70,7 @@ class TestDropdawn:
         assert 'Да, обязательно.' in dropdawn.text_dropdawn_long_delivery()
 
 
+
     @classmethod
     def teardown_class(cls):
         cls.driver.quit()
